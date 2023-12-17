@@ -14,8 +14,8 @@
             }
 
             .search-bar{
-                font-size: 20px;
-                margin-left: 12px;
+                
+                display: block;
             }
 
             .video-title{
@@ -24,8 +24,13 @@
             }
 
             .video-preview{
+
+                width: 300px;
                 display: inline-block;
+
             }
+
+            
             
         </style>
     </head>
@@ -34,23 +39,36 @@
 
         <input class="search-bar" type="text" placeholder="Search">
 
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-       
+        <div class="video-preview">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        
+            <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar
+            </p>
 
-        <p class="video-title">
-            Talking Tech and AI with Google CEO Sundar
-        </p>
+            <p class="video-author">
+                Marques Brownlee
+            </p>
 
-        <p class="video-author">
-            Marques Brownlee
-        </p>
-
-        <p class="video-stats">
-            3.4M views &#183; 6 months ago
-        </p>
+            <p class="video-stats">
+                3.4M views &#183; 6 months ago
+            </p>
+        </div>
 
         <div class="video-preview">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        
+            <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar
+            </p>
 
+            <p class="video-author">
+                Marques Brownlee
+            </p>
+
+            <p class="video-stats">
+                3.4M views &#183; 6 months ago
+            </p>
         </div>
     </body>
 </html>
